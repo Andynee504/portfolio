@@ -1,0 +1,47 @@
+[
+  {
+    "id": "proj-001",
+    "title": "Projeto (3D) — Placeholder",
+    "oneLiner": "Uma linha explicando o projeto (placeholder).",
+    "category": "3d",
+    "tags": ["Blender", "Render", "Shader"],
+    "demo": "#",
+    "repo": "#",
+    "notes": {
+      "context": "O que era / por que existia (placeholder).",
+      "challenge": "O desafio principal (placeholder).",
+      "decision": "Decisão técnica / de design (placeholder).",
+      "result": "Resultado e aprendizado (placeholder)."
+    }
+  },
+  {
+    "id": "proj-002",
+    "title": "Projeto (Web) — Placeholder",
+    "oneLiner": "Uma landing page / app (placeholder).",
+    "category": "web",
+    "tags": ["HTML", "CSS", "JS"],
+    "demo": "#",
+    "repo": "#",
+    "notes": {
+      "context": "Placeholder.",
+      "challenge": "Placeholder.",
+      "decision": "Placeholder.",
+      "result": "Placeholder."
+    }
+  },
+  {
+    "id": "proj-003",
+    "title": "Projeto (Game Design) — Placeholder",
+    "oneLiner": "Um sistema/mecânica (placeholder).",
+    "category": "gamedev",
+    "tags": ["Unity", "C#", "Design"],
+    "demo": "#",
+    "repo": "#",
+    "notes": {
+      "context": "Placeholder.",
+      "challenge": "Placeholder.",
+      "decision": "Placeholder.",
+      "result": "Placeholder."
+    }
+  }
+]

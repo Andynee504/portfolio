@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nome Sobrenome — Projetos</title>
+  <meta name="description" content="Projetos de Nome Sobrenome com filtros por categoria." />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+
+<body data-page="projects">
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+
+  <header class="site-header" id="top">
+    <div class="container hero-center header-inner">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true"></div>
+        <div class="brand-text">
+          <h1 class="brand-title">Nome Sobrenome</h1>
+          <p class="brand-subtitle">Projetos / Cards / Categorias</p>
+        </div>
+      </div>
+
+      <div class="header-cta">
+        <a class="btn" href="./cv.html">Currículo</a>
+        <a class="btn btn-ghost" href="./index.html">Voltar</a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="site-nav" aria-label="Navegação principal">
+    <div class="container nav-inner">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        Menu
+      </button>
+
+      <div id="nav-links" class="nav-links">
+        <a href="./index.html">Home</a>
+        <a href="./cv.html">Currículo</a>
+        <a href="./projects.html" aria-current="page">Projetos</a>
+        <a href="#top">Topo</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main" class="site-main">
+    <section class="topic topic-tight" aria-labelledby="p1">
+      <div class="container hero-center">
+        <h2 id="p1" class="topic-title">Filtros</h2>
+
+        <div class="subnav" role="navigation" aria-label="Filtros de projetos">
+          <button class="chip is-active" type="button" data-filter="all">Todos</button>
+          <button class="chip" type="button" data-filter="3d">3D</button>
+          <button class="chip" type="button" data-filter="web">Web Development</button>
+          <button class="chip" type="button" data-filter="gamedev">Game Design</button>
+        </div>
+
+        <p class="topic-text muted" id="projects-count">Carregando projetos…</p>
+      </div>
+    </section>
+
+    <section class="topic topic-tight" aria-labelledby="p2">
+      <div class="container">
+        <h2 id="p2" class="sr-only">Lista de projetos</h2>
+
+        <div id="projects-grid" class="cards-grid" aria-live="polite">
+          <!-- render via JS -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© Nome Sobrenome</span>
+      <span class="muted">Filtros: 3D / Web / Game</span>
+    </div>
+  </footer>
+
+  <script type="module" src="./assets/js/main.js"></script>
+</body>
+</html>

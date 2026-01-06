@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nome Sobrenome — Portfolio</title>
+  <meta name="description" content="Portfolio de Nome Sobrenome — Hero, Projetos, Currículo." />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+
+<body data-page="home">
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+
+  <header class="site-header" id="top">
+    <div class="container hero-center header-inner">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true"></div>
+        <div class="brand-text">
+          <h1 class="brand-title">Nome Sobrenome</h1>
+          <p class="brand-subtitle">Hero / Headline / Role</p>
+        </div>
+      </div>
+
+      <div class="header-cta">
+        <a class="btn" href="./cv.html">Ver Currículo</a>
+        <a class="btn btn-ghost" href="./projects.html">Ver Projetos</a>
+      </div>
+
+      <div class="header-meta">
+        <span class="pill">Local</span>
+        <span class="pill">Disponibilidade</span>
+        <span class="pill">Contato</span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="site-nav" aria-label="Navegação principal">
+    <div class="container nav-inner">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        Menu
+      </button>
+
+      <div id="nav-links" class="nav-links">
+        <a href="./index.html" aria-current="page">Home</a>
+        <a href="./cv.html">Currículo</a>
+        <a href="./projects.html">Projetos</a>
+        <a href="#contact">Contato</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main" class="site-main">
+    <section class="topic" aria-labelledby="t1">
+      <div class="container hero-center">
+        <h2 id="t1" class="topic-title">Hero</h2>
+        <p class="topic-text">
+          Placeholder de texto: proposta de valor, foco, resumo (curto).
+        </p>
+        <div class="topic-actions">
+          <a class="btn" href="./projects.html?filter=web">Projetos — Web</a>
+          <a class="btn btn-ghost" href="./projects.html?filter=3d">Projetos — 3D</a>
+          <a class="btn btn-ghost" href="./projects.html?filter=gamedev">Projetos — Game Design</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="topic" aria-labelledby="t2">
+      <div class="container hero-center">
+        <h2 id="t2" class="topic-title">Tópico (Hero)</h2>
+        <p class="topic-text">
+          Placeholder: algo que você quer destacar (impacto, abordagem, processo).
+        </p>
+      </div>
+    </section>
+
+    <section class="topic" id="contact" aria-labelledby="t3">
+      <div class="container hero-center">
+        <h2 id="t3" class="topic-title">Contato</h2>
+        <p class="topic-text">Placeholder: email / linkedin / github.</p>
+        <div class="topic-actions">
+          <a class="btn" href="#">Email</a>
+          <a class="btn btn-ghost" href="#">LinkedIn</a>
+          <a class="btn btn-ghost" href="#">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© Nome Sobrenome</span>
+      <span class="muted">Atualizado em: YYYY</span>
+    </div>
+  </footer>
+
+  <script type="module" src="./assets/js/main.js"></script>
+</body>
+</html>
