@@ -1,47 +1,19 @@
 <!doctype html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nome Sobrenome — Projeto</title>
-  <meta name="description" content="Detalhes do projeto (placeholder)." />
+  <title>Andreii Kirazian — Projeto</title>
+  <meta name="description" content="Detalhes do projeto" />
   <link rel="stylesheet" href="./assets/css/styles.css" />
 </head>
 
-<body data-page="project-detail">
+<body data-page="project-detail" data-header-title="Andrei Kirazian" data-header-subtitle="Projeto — Detalhes">
   <a class="skip-link" href="#main">Pular para o conteúdo</a>
 
-  <header class="site-header" id="top">
-    <div class="container hero-center header-inner">
-      <div class="brand">
-        <div class="brand-mark" aria-hidden="true"></div>
-        <div class="brand-text">
-          <h1 class="brand-title">Nome Sobrenome</h1>
-          <p class="brand-subtitle">Projeto — Detalhes</p>
-        </div>
-      </div>
-
-      <div class="header-cta">
-        <a class="btn" href="./projects.html">Voltar para Projetos</a>
-        <a class="btn btn-ghost" href="./index.html">Home</a>
-      </div>
-    </div>
-  </header>
-
-  <nav class="site-nav" aria-label="Navegação principal">
-    <div class="container nav-inner">
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
-        Menu
-      </button>
-
-      <div id="nav-links" class="nav-links">
-        <a href="./index.html">Home</a>
-        <a href="./cv.html">Currículo</a>
-        <a href="./projects.html">Projetos</a>
-        <a href="#main" aria-current="page">Detalhes</a>
-      </div>
-    </div>
-  </nav>
+  <div data-include="./assets/partials/header.html"></div>
+  <div data-include="./assets/partials/nav.html"></div>
 
   <main id="main" class="site-main">
     <section class="topic" aria-labelledby="d1">
@@ -57,19 +29,15 @@
       <div class="container hero-center">
         <h2 id="d2" class="topic-title">O que foi interessante aqui</h2>
         <div class="text-block" data-project-notes>
-          <p>Placeholder: escreva sua experiência, desafios, decisões e aprendizados.</p>
+          <p>Placeholder.</p>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <span>© Nome Sobrenome</span>
-      <span class="muted">Projeto: placeholder</span>
-    </div>
-  </footer>
+  <div data-include="./assets/partials/footer.html"></div>
 
   <script type="module" src="./assets/js/main.js"></script>
 </body>
+
 </html>

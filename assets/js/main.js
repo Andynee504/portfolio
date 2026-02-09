@@ -1,12 +1,15 @@
+import { initLayout } from "./modules/layout.js";
 import { initScrollShell } from "./modules/scrollShell.js";
-import { initNav } from "./modules/nav.js";
 import { initProjectsPage } from "./modules/projects.js";
 import { initProjectDetailPage } from "./modules/projectDetail.js";
+import { initCVPage } from "./modules/cv.js";
 
-initScrollShell();
-initNav();
+(async function boot() {
+  await initLayout();
+  initScrollShell();
 
-const page = document.body.dataset.page;
-
-if (page === "projects") initProjectsPage();
-if (page === "project-detail") initProjectDetailPage();
+  const page = document.body.dataset.page;
+  if (page === "projects") initProjectsPage();
+  if (page === "project-detail") initProjectDetailPage();
+  if (page === "cv") initCVPage();
+})();

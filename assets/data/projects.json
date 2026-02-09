@@ -1,10 +1,95 @@
 [
   {
+    "id": "D02",
+    "title": "Doppo (Web)",
+    "oneLiner": "Trabalho Interdisciplinar de Conclusão de Curso (TICC).",
+    "category": "web",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "thumb": "#",
+    "demo": "https://andynee504.github.io/Doppo/",
+    "repo": "https://github.com/Andynee504/Doppo",
+    "notes": {
+      "context": "Aplicativo Web (PWA) gamificado para incentivar a leitura",
+      "challenge": "Contemplar usabilidade e acessibilidade para diversos dispositivos, com multiplas funcionalidades, dentro de um prazo curto",
+      "decision": "Encapsular funcionalidades em módulos JS, utilizando localStorage para persistência de dados, e focar em uma interface limpa e responsiva com HTML semântico e CSS flexível",
+      "result": "Protótipo funcional com navegação fluida. O projeto consolidou habilidades de desenvolvimento web, destacando a importância de organização modular e design centrado no usuário para criar experiências envolventes e acessíveis."
+    }
+  },
+  {
+    "id": "D01",
+    "title": "Exposições de São Paulo",
+    "oneLiner": "Projeto final do modulo 4 (Web).",
+    "category": "web",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "thumb": "#",
+    "demo": "https://andynee504.github.io/modulo4-Web/",
+    "repo": "https://github.com/Andynee504/modulo4-Web",
+    "notes": {
+      "context": "Projeto proposto para desenvolvimento de aprendizado de HTML, CSS, JS e lógica de programação com boas práticas de design e UX.",
+      "challenge": "Primeiro contato com desenvolvimento web, linguagens e ferramentas novas, além de aprender a organizar o projeto e o código de forma eficiente.",
+      "decision": "Optei por uma abordagem rudimentar de desenvolvimento, focando em aprender os fundamentos e a lógica de programação, sem me preocupar com frameworks ou bibliotecas avançadas.",
+      "result": "Entreguei um site funcional com navegação consistente e formulário de contato. O principal ganho foi consolidar a base de HTML semântico, CSS responsivo e JS básico. Isso também evidenciou mais tarde a oportunidade de simplificar a manutenção com JS modular, reduzindo duplicação entre páginas."
+    }
+  },
+  {
+    "id": "P01",
+    "title": "Rotina Alimentar",
+    "oneLiner": "Projeto pessoal de gestão de hábitos alimentares.",
+    "category": "web",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "thumb": "#",
+    "demo": "https://andynee504.github.io/schedule/",
+    "repo": "https://github.com/Andynee504/schedule",
+    "notes": {
+      "context": "Interface simples para organizar e acompanhar hábitos alimentares pessoais.",
+      "challenge": "Trabalhar com persistência de dados na função Date() e armazenamento local.",
+      "decision": "Utilizar localStorage para salvar os dados do usuário, e criar uma interface limpa e intuitiva.",
+      "result": "Protótipo funcional que permite ao usuário adicionar, visualizar e remover hábitos alimentares, com dados persistentes entre sessões. O projeto reforçou habilidades de manipulação de DOM, eventos e armazenamento local."
+    }
+  },
+  {
+    "id": "P02",
+    "title": "Timer de Jogos",
+    "oneLiner": "Projeto Pessoal de controle de tempo para respawn em jogos.",
+    "category": "web",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "thumb": "#",
+    "demo": "https://andynee504.github.io/boss_timer/",
+    "repo": "https://github.com/Andynee504/boss_timer",
+    "notes": {
+      "context": "Interface simples para organizar e acompanhar tempos de respawn,localização e modo de chefes, em jogos online.",
+      "challenge": "Criação de diferentes cards para cada chefe, com informações específicas em interface avançada e armazenamento local.",
+      "decision": "Utilizar JSON para organizar os dados padrões dos chefes, e localStorage para salvar os dados do usuário.",
+      "result": "Protótipo funcional que permite ao usuário gerir dados únicos de chefes entre sessões. O projeto reforçou habilidades de organização de dados com JSON."
+    }
+  },
+  {
     "id": "proj-001",
     "title": "Projeto (3D) — Placeholder",
     "oneLiner": "Uma linha explicando o projeto (placeholder).",
     "category": "3d",
-    "tags": ["Blender", "Render", "Shader"],
+    "tags": [
+      "Blender",
+      "Render",
+      "Shader"
+    ],
+    "thumb": "./assets/img/projects/proj-002.webp",
     "demo": "#",
     "repo": "#",
     "notes": {
@@ -19,7 +104,11 @@
     "title": "Projeto (Web) — Placeholder",
     "oneLiner": "Uma landing page / app (placeholder).",
     "category": "web",
-    "tags": ["HTML", "CSS", "JS"],
+    "tags": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
     "demo": "#",
     "repo": "#",
     "notes": {
@@ -34,7 +123,11 @@
     "title": "Projeto (Game Design) — Placeholder",
     "oneLiner": "Um sistema/mecânica (placeholder).",
     "category": "gamedev",
-    "tags": ["Unity", "C#", "Design"],
+    "tags": [
+      "Unity",
+      "C#",
+      "Design"
+    ],
     "demo": "#",
     "repo": "#",
     "notes": {

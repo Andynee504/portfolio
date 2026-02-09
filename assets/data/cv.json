@@ -1,0 +1,98 @@
+{
+    "name": "Andrei Kirazian",
+    "birthday": "09-05-1994",
+    "contact": "+55 11 9 9995 - 2239",
+    "links": [
+        {
+            "label": "E-mail",
+            "url": "mailto:andreikirazian@gmail.com"
+        },
+        {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/andrei-kirazian/"
+        },
+        {
+            "label": "GitHub",
+            "url": "https://github.com/Andynee504"
+        }
+    ],
+    "profile": "Estudante de Design de Interação (UI/UX) na PUC-SP, com experiência profissional de longa duração em comunicação e mídias sociais. Atuação com definição de escopo, produção de relatórios e execução de projetos institucionais. Interesse em aplicar organização da informação e comunicação clara em interfaces e produtos digitais.",
+    "education": [
+        {
+            "course": "Design de Interação (UI/UX)",
+            "institution": "PUC-SP",
+            "period": "2021 - 2026"
+        },
+        {
+            "course": "Comunicação Social - Publicidade e Propaganda",
+            "institution": "PUC-SP",
+            "period": "2014 - 2016"
+        },
+        {
+            "course": "JavaScript e TypeScript do básico ao avançado",
+            "institution": "Udemy",
+            "period": "2024"
+        },
+        {
+            "course": "Curso de Atualização em Mídias Sociais",
+            "institution": "ESPM",
+            "period": "2022"
+        },
+        {
+            "course": "Vídeo Digital",
+            "institution": "DRC",
+            "period": "2013",
+            "modules": "Câmeras HDSLR; Final Cut Pro X; Adobe After Effects; Pro Tools"
+        },
+        {
+            "course": "Fotografia",
+            "institution": "Senac",
+            "period": "2011"
+        }
+    ],
+    "languages": [
+        {
+            "language": "Português",
+            "proficiency": "Nativo"
+        },
+        {
+            "language": "Inglês",
+            "proficiency": "Avançado"
+        }
+    ],
+    "experiences": [
+        {
+            "role": "Gerenciador de Mídias Sociais",
+            "company": "Fundação São Paulo",
+            "period": "03/2014 - atual",
+            "description": "Responsável pela gestão das redes sociais institucionais, coleta de métricas para otimização de estratégias de comunicação, participação de projetos de comunicação interna e externa, além de apoio na organização de eventos e campanhas institucionais."
+        },
+        {
+            "role": "Fotografia, Vídeo e Edição Freelancer",
+            "company": "Autonomo",
+            "period": "2013 - 2017",
+            "description": "Criação de conteúdo audiovisual para clientes diversos, incluindo fotografia de eventos, produção de vídeos institucionais e edição de material bruto."
+        },
+        {
+            "role": "Atendente de Salão",
+            "company": "Vivalle Buffet",
+            "period": "2010 - 2011",
+            "description": "Preparação do salão antes das festas, atendimento aos convidados com serviço de alimentos e bebidas, retirada de pratos e copos para a cozinha e limpeza/fechamento do ambiente ao final, deixando tudo pronto para o próximo evento."
+        }
+    ],
+    "voluntary": [
+        {
+            "role": "Arquivista",
+            "organization": "ACNUR",
+            "period": "2011",
+            "description": "Digitalização de documentos do arquivo morto"
+        }
+    ],
+    "skills": [
+        "Design de Interação (UI/UX)",
+        "HTML, CSS e JavaScript",
+        "Adobe Creative Suite (Photoshop, Illustrator, After Effects, Premiere Pro, Audition, lightroom)",
+        "Fotografia",
+        "Operação de Câmeras para Vídeo"
+    ]
+}

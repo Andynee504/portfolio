@@ -12,6 +12,7 @@ export async function initProjectDetailPage() {
 
   const data = await loadJSON("./assets/data/projects.json");
   const project = data.find(p => p.id === id) || data[0];
+  console.log(`carregou ${project}`);
 
   titleEl.textContent = project?.title || "Projeto (Placeholder)";
   oneLinerEl.textContent = project?.oneLiner || "One-liner (Placeholder).";
