@@ -1,43 +1,62 @@
 <!doctype html>
 <html lang="pt-BR">
-
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Andreii Kirazian — Projeto</title>
-  <meta name="description" content="Detalhes do projeto" />
-  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Estudo de caso de um projeto de Andrei Kirazian.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="color-scheme" content="light dark">
+  <title>Projeto - Andrei Kirazian</title>
+  <script src="./assets/js/theme.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&amp;family=Space+Grotesk:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
-
-<body data-page="project-detail" data-header-title="Andrei Kirazian" data-header-subtitle="Projeto — Detalhes">
+<body data-page="project-detail">
   <a class="skip-link" href="#main">Pular para o conteúdo</a>
-
-  <div data-include="./assets/partials/header.html"></div>
-  <div data-include="./assets/partials/nav.html"></div>
-
-  <main id="main" class="site-main">
-    <section class="topic" aria-labelledby="d1">
-      <div class="container hero-center">
-        <h2 id="d1" class="topic-title" data-project-title>Projeto (Placeholder)</h2>
-        <p class="topic-text" data-project-oneLiner>One-liner (Placeholder).</p>
-        <div class="pill-row" role="list" data-project-tags></div>
-        <div class="topic-actions" data-project-links></div>
-      </div>
-    </section>
-
-    <section class="topic" aria-labelledby="d2">
-      <div class="container hero-center">
-        <h2 id="d2" class="topic-title">O que foi interessante aqui</h2>
-        <div class="text-block" data-project-notes>
-          <p>Placeholder.</p>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="./index.html" aria-label="Andrei Kirazian - início">Andrei Kirazian<span aria-hidden="true">.</span></a>
+      <nav class="site-nav" aria-label="Navegação principal"><div class="nav-links"><a href="./index.html" data-nav="home">Início</a> <a href="./projects.html" data-nav="projects" aria-current="location">Projetos</a> <a href="./cv.html" data-nav="cv">Currículo</a> <a href="#contato">Contato</a></div></nav>
+      <details class="appearance">
+        <summary>Aparência</summary>
+        <div class="theme-panel">
+          <div class="theme-control">
+            <label for="theme-select">Tema</label>
+            <select id="theme-select" disabled>
+              <option value="light">Claro</option>
+              <option value="dark">Escuro</option>
+              <option value="protanopia">Protanopia</option>
+              <option value="deuteranopia">Deuteranopia</option>
+              <option value="tritanopia">Tritanopia</option>
+            </select>
+          </div>
+          <button id="theme-system" class="btn btn-ghost" type="button" aria-pressed="true" disabled>Usar tema do sistema</button>
+          <p class="theme-help">As três paletas alternativas são preferências de cor. Escolha a que funcionar melhor para você.</p>
+          <noscript><p>O tema segue seu sistema. Ative o JavaScript para escolher outra aparência.</p></noscript>
         </div>
-      </div>
-    </section>
+      </details>
+      <p id="theme-status" class="sr-only" role="status" aria-live="polite"></p>
+    </div>
+  </header>
+  <main id="main" class="site-main" tabindex="-1">
+    <div class="container project-detail" id="project-root" aria-busy="true">
+      <div class="page-intro"><h1 class="page-title">Projeto</h1><p role="status">Carregando detalhes do projeto.</p></div>
+    </div>
+    <noscript><div class="container message"><p>Ative o JavaScript para visualizar os detalhes do projeto.</p><a href="./projects.html">Voltar aos projetos</a></div></noscript>
   </main>
-
-  <div data-include="./assets/partials/footer.html"></div>
-
+  <footer class="site-footer" id="contato">
+    <div class="container footer-inner">
+      <div><p class="eyebrow">Contato</p><h2>Vamos conversar?</h2></div>
+      <div class="contact-links">
+        <a href="mailto:andreikirazian@gmail.com">andreikirazian@gmail.com</a>
+        <a href="https://www.linkedin.com/in/andrei-kirazian/">LinkedIn</a>
+        <a href="https://github.com/Andynee504">GitHub</a>
+      </div>
+      <p class="footer-meta">Andrei Kirazian / Design de interação</p>
+    </div>
+  </footer>
   <script type="module" src="./assets/js/main.js"></script>
 </body>
-
 </html>

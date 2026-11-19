@@ -1,32 +1,64 @@
 <!doctype html>
 <html lang="pt-BR">
-
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Andrei Kirazian — Currículo</title>
-  <meta name="description" content="Currículo de Andrei Kirazian" />
-  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Formação, experiência profissional e competências de Andrei Kirazian.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="color-scheme" content="light dark">
+  <title>Currículo - Andrei Kirazian</title>
+  <script src="./assets/js/theme.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&amp;family=Space+Grotesk:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
-
-<body data-page="cv" data-header-title="Andrei Kirazian" data-header-subtitle="Currículo / Informações">
+<body data-page="cv">
   <a class="skip-link" href="#main">Pular para o conteúdo</a>
-
-  <div data-include="./assets/partials/header.html"></div>
-  <div data-include="./assets/partials/nav.html"></div>
-
-  <main id="main" class="site-main">
-    <section class="topic" aria-labelledby="cv1">
-      <div class="container hero-center">
-        <h2 id="cv1" class="topic-title">Currículo</h2>
-        <div id="cv-root" class="cv-root"></div>
-      </div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="./index.html" aria-label="Andrei Kirazian - início">Andrei Kirazian<span aria-hidden="true">.</span></a>
+      <nav class="site-nav" aria-label="Navegação principal"><div class="nav-links"><a href="./index.html" data-nav="home">Início</a> <a href="./projects.html" data-nav="projects">Projetos</a> <a href="./cv.html" data-nav="cv" aria-current="page">Currículo</a> <a href="#contato">Contato</a></div></nav>
+      <details class="appearance">
+        <summary>Aparência</summary>
+        <div class="theme-panel">
+          <div class="theme-control">
+            <label for="theme-select">Tema</label>
+            <select id="theme-select" disabled>
+              <option value="light">Claro</option>
+              <option value="dark">Escuro</option>
+              <option value="protanopia">Protanopia</option>
+              <option value="deuteranopia">Deuteranopia</option>
+              <option value="tritanopia">Tritanopia</option>
+            </select>
+          </div>
+          <button id="theme-system" class="btn btn-ghost" type="button" aria-pressed="true" disabled>Usar tema do sistema</button>
+          <p class="theme-help">As três paletas alternativas são preferências de cor. Escolha a que funcionar melhor para você.</p>
+          <noscript><p>O tema segue seu sistema. Ative o JavaScript para escolher outra aparência.</p></noscript>
+        </div>
+      </details>
+      <p id="theme-status" class="sr-only" role="status" aria-live="polite"></p>
+    </div>
+  </header>
+  <main id="main" class="site-main" tabindex="-1">
+    <section class="page-intro container" aria-labelledby="cv-title">
+      <p class="eyebrow">Formação e experiência</p>
+      <h1 class="page-title" id="cv-title">Currículo</h1>
     </section>
+    <div class="container section" id="cv-root" aria-busy="true"><p role="status">Carregando currículo.</p></div>
+    <noscript><p class="container message">Ative o JavaScript para visualizar o currículo. Para solicitar uma cópia, <a href="mailto:andreikirazian@gmail.com">entre em contato por e-mail</a>.</p></noscript>
   </main>
-
-  <div data-include="./assets/partials/footer.html"></div>
-
+  <footer class="site-footer" id="contato">
+    <div class="container footer-inner">
+      <div><p class="eyebrow">Contato</p><h2>Vamos conversar?</h2></div>
+      <div class="contact-links">
+        <a href="mailto:andreikirazian@gmail.com">andreikirazian@gmail.com</a>
+        <a href="https://www.linkedin.com/in/andrei-kirazian/">LinkedIn</a>
+        <a href="https://github.com/Andynee504">GitHub</a>
+      </div>
+      <p class="footer-meta">Andrei Kirazian / Design de interação</p>
+    </div>
+  </footer>
   <script type="module" src="./assets/js/main.js"></script>
 </body>
-
 </html>

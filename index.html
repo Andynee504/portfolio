@@ -1,39 +1,77 @@
 <!doctype html>
 <html lang="pt-BR">
-
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Andrei Kirazian — Portfolio</title>
-  <meta name="description" content="Portfolio de Andrei Kirazian" />
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfólio de Design de Interação de Andrei Kirazian.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="color-scheme" content="light dark">
+  <title>Andrei Kirazian - Portfólio</title>
+  <script src="./assets/js/theme.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&amp;family=Space+Grotesk:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
-
-<body data-page="home" data-header-title="Andrei Kirazian" data-header-subtitle="Design&thinsp;(UI/UX) &#8226 3D&thinsp;Blender &#8226 Unity&thinsp;(C#) &#8226 Web&thinsp;(HTML,&thinsp;CSS&thinsp;e&thinsp;JS)">
+<body data-page="home">
   <a class="skip-link" href="#main">Pular para o conteúdo</a>
-
-  <div data-include="assets/partials/header.html"></div>
-  <div data-include="assets/partials/nav.html"></div>
-
-  <main id="main" class="site-main">
-    <section class="topic" aria-labelledby="t1">
-      <div class="container hero-center">
-        <h2 id="t1" class="topic-title">Hero</h2>
-        <p class="topic-text">Placeholder de texto.</p>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="./index.html" aria-label="Andrei Kirazian - início">Andrei Kirazian<span aria-hidden="true">.</span></a>
+      <nav class="site-nav" aria-label="Navegação principal"><div class="nav-links"><a href="./index.html" data-nav="home" aria-current="page">Início</a> <a href="./projects.html" data-nav="projects">Projetos</a> <a href="./cv.html" data-nav="cv">Currículo</a> <a href="#contato">Contato</a></div></nav>
+      <details class="appearance">
+        <summary>Aparência</summary>
+        <div class="theme-panel">
+          <div class="theme-control">
+            <label for="theme-select">Tema</label>
+            <select id="theme-select" disabled>
+              <option value="light">Claro</option>
+              <option value="dark">Escuro</option>
+              <option value="protanopia">Protanopia</option>
+              <option value="deuteranopia">Deuteranopia</option>
+              <option value="tritanopia">Tritanopia</option>
+            </select>
+          </div>
+          <button id="theme-system" class="btn btn-ghost" type="button" aria-pressed="true" disabled>Usar tema do sistema</button>
+          <p class="theme-help">As três paletas alternativas são preferências de cor. Escolha a que funcionar melhor para você.</p>
+          <noscript><p>O tema segue seu sistema. Ative o JavaScript para escolher outra aparência.</p></noscript>
+        </div>
+      </details>
+      <p id="theme-status" class="sr-only" role="status" aria-live="polite"></p>
+    </div>
+  </header>
+  <main id="main" class="site-main" tabindex="-1">
+    <section class="home-hero container" aria-labelledby="home-title">
+      <p class="eyebrow">Portfólio / Design de interação</p>
+      <h1 id="home-title">Do problema<br>à <span class="hero-accent">interface.</span></h1>
+      <p class="hero-description">Sou Andrei Kirazian. Aqui, apresento meus projetos, as decisões de design e o que aprendi ao desenvolvê-los.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projetos">Explorar projetos</a>
+        <a class="btn btn-ghost" href="./cv.html">Ver currículo</a>
       </div>
     </section>
-
-    <section class="topic" id="contact" aria-labelledby="t3">
-      <div class="container hero-center">
-        <h2 id="t3" class="topic-title">Contato</h2>
-        <p class="topic-text">Placeholder: email / linkedin / github.</p>
+    <section class="section container" id="projetos" aria-labelledby="featured-title">
+      <div class="section-heading">
+        <h2 id="featured-title">Projetos selecionados</h2>
+        <p>Design e desenvolvimento</p>
       </div>
+      <p id="featured-status" class="sr-only" role="status" aria-live="polite">Carregando projetos.</p>
+      <div id="featured-projects" class="cards-grid"></div>
+      <noscript><p class="message">Ative o JavaScript para visualizar os projetos. Você também pode <a href="https://github.com/Andynee504">consultar meus projetos no GitHub</a>.</p></noscript>
+      <div class="section-actions"><a class="btn btn-ghost" href="./projects.html">Ver todos os projetos</a></div>
     </section>
   </main>
-
-  <div data-include="assets/partials/footer.html"></div>
-
-  <script type="module" src="assets/js/main.js"></script>
+  <footer class="site-footer" id="contato">
+    <div class="container footer-inner">
+      <div><p class="eyebrow">Contato</p><h2>Vamos conversar?</h2></div>
+      <div class="contact-links">
+        <a href="mailto:andreikirazian@gmail.com">andreikirazian@gmail.com</a>
+        <a href="https://www.linkedin.com/in/andrei-kirazian/">LinkedIn</a>
+        <a href="https://github.com/Andynee504">GitHub</a>
+      </div>
+      <p class="footer-meta">Andrei Kirazian / Design de interação</p>
+    </div>
+  </footer>
+  <script type="module" src="./assets/js/main.js"></script>
 </body>
-
 </html>
